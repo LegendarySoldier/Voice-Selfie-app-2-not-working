@@ -26,7 +26,7 @@ function speak(){
     var blahBlahBlah = new SpeechSynthesisUtterance(speak_data);
 
     synth.speak(blahBlahBlah);
-    Wbcam.attach(camera);
+    Webcam.attach(camera);
 }
 
 
